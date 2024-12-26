@@ -16,7 +16,7 @@ hasCJKLanguage: false
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Yan Qingguo's blog
         weight: 2
         params:
             sidebar:
@@ -27,7 +27,7 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: 前端工程师、擅长React、Nextjs
+                subtitle: Front-end engineer, proficient in React and Next.js
 
 services:
     # Change it to your Disqus shortname before using
