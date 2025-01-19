@@ -5,10 +5,10 @@ date: 2024-12-07
 image: 
 draft: false
 tags: [javascript]
-categories: [""]
+categories: []
 ---
 
-## 对象或数组解析设置默认值只对undefined生效
+## 对象或数组解析默认值仅对 undefined 有效
 
 **只有解析结果严格等于undefined，默认值才会生效**
 

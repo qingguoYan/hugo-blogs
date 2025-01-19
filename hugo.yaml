@@ -1,8 +1,8 @@
 # 生产网址
-baseurl: https://example.com/
-languageCode: en-us
+baseurl: https://mwsawgirgiir.sealoshzh.site/
+languageCode: zh-cn
 theme: hugo-theme-stack
-title: Example Site
+title: Yan qingguo 的博客
 copyright: Yan qingguo
 
 # Theme i18n support
@@ -14,17 +14,17 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: false
 
 languages:
-    en:
-        languageName: English
-        title: Yan Qingguo's blog
-        weight: 2
-        params:
-            sidebar:
-                subtitle: Example description
     zh-cn:
         languageName: 中文
         title: Yan qingguo 的博客
         weight: 1
+        params:
+            sidebar:
+                subtitle: 前端开发工程师，擅长React、Next.js
+    en:
+        languageName: English
+        title: Yan Qingguo's blog
+        weight: 2
         params:
             sidebar:
                 subtitle: Front-end engineer, proficient in React and Next.js

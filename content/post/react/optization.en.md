@@ -1,7 +1,7 @@
 ---
 title: "React Application Performance Optimization: Five Simple and Effective Methods"
 description: "Five tricks to improve the performance of React applications, helping you optimize components and reduce rendering, making the application run more smoothly."
-date: 2024-12-07
+date: 2024-12-26
 image: 
 draft: false
 tags: [React]
