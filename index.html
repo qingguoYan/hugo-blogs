@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text, .box {
+          display: inline-block;
+          height: 50px;
+          background: rgba(0,0,255,0.2);
+        }
+        .box {
+          width: 30px;
+          background: rgba(255,0,0,0.2);
+        }
+        .container::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: red;
+  vertical-align: baseline;
+}
+      </style>
+        
+  <style>
+    .box {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: #4CAF50;
+      border: 1px solid #333;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+    <!-- <div class="container">
+    <span class="text">Hello</span>
+    <div class="box"></div>
+  </div> -->
+  <div style="font-size: 20px; background: #f0f0f0;">
+    文本x<span style="background: rgba(0,255,0,0.3);">g</span>
+    <span style="display: inline-block; width: 30px; height: 50px; background: rgba(255,0,0,0.3);"></span>
+  </div>
+  <p>
+    正常文本x
+    <span style="vertical-align: super; color: red;">上标</span>
+    <span style="vertical-align: sub; color: blue;">下标</span>
+  </p>
+  <div style="font-size: 24px; line-height: 2;">
+    <span style="background: rgba(255,0,0,0.3);">父级文本gjpq</span>
+    <span src="https://via.placeholder.com/40x20" style="vertical-align: text-top; color: red;">上标</span>
+    <span src="https://via.placeholder.com/40x20" style="vertical-align: text-bottom; color: blue;">下标</span>
+  </div>
+  <div style="font-size: 24px; line-height: 2; border: 1px solid #ccc; font-family: Georgia;">
+    <span style="background: rgba(255,0,0,0.3);">父级文本gjpq</span>
+    <img src="https://via.placeholder.com/40x20" style="vertical-align: text-top; background: blue;">
+    <img src="https://via.placeholder.com/40x20" style="vertical-align: top;">
+    <img src="https://via.placeholder.com/40x20" style="vertical-align: text-bottom; background: green;">
+    <img src="https://via.placeholder.com/40x20" style="vertical-align: bottom;">
+  </div>
+  <div class="container">
+    <div class="box">A<br>B<br>C</div>  <!-- 3行内容 -->
+    <div class="box">Short</div>       <!-- 1行内容 -->
+  </div>
+  <p style="font-size: 20px; font-family: Arial;">
+    文本x<img src="icon.png" style="vertical-align: middle;">
+  </p>
+</body>
+</html>

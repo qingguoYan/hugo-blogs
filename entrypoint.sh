@@ -1,1 +1,1 @@
-hugo serve --bind 0.0.0.0
+hugo serve -D --bind 0.0.0.0

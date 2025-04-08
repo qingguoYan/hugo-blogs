@@ -5,7 +5,7 @@ date: 2024-12-26
 image: 
 draft: false
 tags: [React]
-categories: ["性能优化"]
+categories: ["React","性能优化"]
 ---
 
 ## 合理的组件结构
