@@ -2,7 +2,7 @@
 title: "使用 Axios AbortController 优雅解决重复请求竞态问题"
 description: 在前端开发中，处理重复请求就像指挥交通 - 你需要确保最新的请求总能优先通过，而陈旧的请求会被及时取消，避免造成数据混乱
 date: 2024-12-27
-draft: true
+draft: false
 tags: [javascript]
 categories: [JS]
 ---
